@@ -1,7 +1,7 @@
 ﻿using System.Collections.Generic;
 using System.Text;
 
-namespace Алгоритм_Дейкстры
+namespace Dijkstra_Algorithm
 {
     class Point
     {

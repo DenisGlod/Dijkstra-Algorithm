@@ -4,7 +4,7 @@ using System.IO;
 using System.Runtime.Serialization.Formatters.Binary;
 using System.Windows.Forms;
 
-namespace Алгоритм_Дейкстры
+namespace Dijkstra_Algorithm
 {
     public partial class Form : System.Windows.Forms.Form
     {

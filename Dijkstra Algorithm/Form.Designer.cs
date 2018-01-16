@@ -1,4 +1,4 @@
-﻿namespace Алгоритм_Дейкстры
+﻿namespace Dijkstra_Algorithm
 {
     partial class Form
     {
@@ -155,7 +155,7 @@
             // bClear
             // 
             this.bClear.Anchor = ((System.Windows.Forms.AnchorStyles)((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Right)));
-            this.bClear.Image = global::Алгоритм_Дейкстры.Properties.Resources.eraser;
+            this.bClear.Image = global::Dijkstra_Algorithm.Properties.Resources.eraser;
             this.bClear.Location = new System.Drawing.Point(300, 127);
             this.bClear.Name = "bClear";
             this.bClear.Size = new System.Drawing.Size(34, 27);
@@ -167,7 +167,7 @@
             // 
             // bOpen
             // 
-            this.bOpen.Image = global::Алгоритм_Дейкстры.Properties.Resources.open;
+            this.bOpen.Image = global::Dijkstra_Algorithm.Properties.Resources.open;
             this.bOpen.Location = new System.Drawing.Point(55, 127);
             this.bOpen.Name = "bOpen";
             this.bOpen.Size = new System.Drawing.Size(40, 27);
@@ -178,7 +178,7 @@
             // 
             // bSave
             // 
-            this.bSave.Image = global::Алгоритм_Дейкстры.Properties.Resources.save;
+            this.bSave.Image = global::Dijkstra_Algorithm.Properties.Resources.save;
             this.bSave.Location = new System.Drawing.Point(12, 127);
             this.bSave.Name = "bSave";
             this.bSave.Size = new System.Drawing.Size(37, 27);
@@ -190,7 +190,7 @@
             // bDecide
             // 
             this.bDecide.Anchor = ((System.Windows.Forms.AnchorStyles)((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Right)));
-            this.bDecide.Image = global::Алгоритм_Дейкстры.Properties.Resources.ok;
+            this.bDecide.Image = global::Dijkstra_Algorithm.Properties.Resources.ok;
             this.bDecide.Location = new System.Drawing.Point(244, 127);
             this.bDecide.Name = "bDecide";
             this.bDecide.Size = new System.Drawing.Size(50, 27);

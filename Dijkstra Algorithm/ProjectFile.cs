@@ -1,6 +1,6 @@
 ﻿using System;
 
-namespace Алгоритм_Дейкстры
+namespace Dijkstra_Algorithm
 {
     [Serializable]
     class ProjectFile

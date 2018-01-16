@@ -8,7 +8,7 @@
 // </auto-generated>
 //------------------------------------------------------------------------------
 
-namespace Алгоритм_Дейкстры.Properties
+namespace Dijkstra_Algorithm.Properties
 {
 
 
