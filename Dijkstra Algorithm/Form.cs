@@ -184,11 +184,17 @@ namespace Dijkstra_Algorithm
             }
         }
 
+        /// <summary>
+        /// Выход из программы
+        /// </summary>
         private void MExit_Click(object sender, EventArgs e)
         {
             Application.Exit();
         }
 
+        /// <summary>
+        /// Открытие окна О программе
+        /// </summary>
         private void MAbout_Click(object sender, EventArgs e)
         {
             MessageBox.Show("Алгори́тм Де́йкстры (англ. Dijkstra’s algorithm) — алгоритм"
