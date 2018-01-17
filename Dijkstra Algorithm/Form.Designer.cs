@@ -138,6 +138,7 @@
             this.tbPointStart.Name = "tbPointStart";
             this.tbPointStart.Size = new System.Drawing.Size(41, 20);
             this.tbPointStart.TabIndex = 10;
+            this.toolTip.SetToolTip(this.tbPointStart, "Введите начальную вершину:\r\na");
             this.tbPointStart.KeyPress += new System.Windows.Forms.KeyPressEventHandler(this.TbPoint_KeyPress);
             // 
             // tbPointEnd
@@ -147,6 +148,7 @@
             this.tbPointEnd.Name = "tbPointEnd";
             this.tbPointEnd.Size = new System.Drawing.Size(41, 20);
             this.tbPointEnd.TabIndex = 11;
+            this.toolTip.SetToolTip(this.tbPointEnd, "Введите конечную вершину:\r\nb");
             this.tbPointEnd.KeyPress += new System.Windows.Forms.KeyPressEventHandler(this.TbPoint_KeyPress);
             // 
             // saveFileDialog
