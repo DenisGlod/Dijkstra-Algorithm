@@ -52,7 +52,7 @@ namespace Dijkstra_Algorithm
             foreach (string str in vWeight.Split(' '))
             {
                 var temp = str.Split('=');
-                var nameRib = temp[0].Split(';');
+                var nameRib = temp[0].Split(',');
                 listRibs.Add(new Rib(nameRib[0], nameRib[1], double.Parse(temp[1])));
             }
             var warning = listRibs.FindAll(r => r.IsNegativeMeaning());
@@ -100,7 +100,7 @@ namespace Dijkstra_Algorithm
         /// <summary>
         /// Очистка всех полей ввода
         /// </summary>
-        private void BClear_Click(object sender, System.EventArgs e)
+        private void MClear_Click(object sender, System.EventArgs e)
         {
             tbVerticesName.Clear();
             tbRibWeight.Clear();
@@ -141,7 +141,7 @@ namespace Dijkstra_Algorithm
         /// <summary>
         /// Сохранение проекта
         /// </summary>
-        private void BSave_Click(object sender, System.EventArgs e)
+        private void MSave_Click(object sender, System.EventArgs e)
         {
             ProjectFile pf = new ProjectFile
             {
@@ -166,7 +166,7 @@ namespace Dijkstra_Algorithm
         /// <summary>
         /// Открытие сохраненного проекта
         /// </summary>
-        private void BOpen_Click(object sender, System.EventArgs e)
+        private void MOpen_Click(object sender, System.EventArgs e)
         {
             if (openFileDialog.ShowDialog() == DialogResult.OK)
             {
@@ -182,6 +182,23 @@ namespace Dijkstra_Algorithm
                     tbResul.Text = file.Result;
                 }
             }
+        }
+
+        private void MExit_Click(object sender, EventArgs e)
+        {
+            Application.Exit();
+        }
+
+        private void MAbout_Click(object sender, EventArgs e)
+        {
+            MessageBox.Show("Алгори́тм Де́йкстры (англ. Dijkstra’s algorithm) — алгоритм"
+                           + "\r\nна графах, изобретённый нидерландским учёным"
+                           + "\r\nЭдсгером Дейкстрой в 1959 году. Находит кратчайшие"
+                           + "\r\nпути от однойиз вершин графа до всех остальных."
+                           + "\r\nАлгоритм работает только для графов без рёбер"
+                           + "\r\nотрицательного веса. Алгоритм широко применяется"
+                           + "\r\nв программировании и технологиях, например, его"
+                           + "\r\nиспользуют протоколы маршрутизации OSPF и IS-IS.", "О программе", MessageBoxButtons.OK, MessageBoxIcon.Information);
         }
     }
 }
